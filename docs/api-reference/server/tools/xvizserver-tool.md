@@ -43,11 +43,14 @@ There are built-in XVIZ scenarios the server supports, mainly for testing.
 
 - `/scenario-circle`
 - `/scenario-straight`
+- `/scenario-orbit`
+- `/scenario-transforms`
+- `/scenario-arm`
 
 Example
 
 ```
-http://localhost:8080/scenario-circle
+http://localhost:8081/scenario-circle
 ```
 
 ### Options
