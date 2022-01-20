@@ -64,7 +64,7 @@ export function serverArgs(inArgs, {defaultCommand = false} = {}) {
         alias: 'd',
         describe: 'Data directory source.  Multiple directories are supported',
         type: 'string',
-        required: true,
+        required: false,
         group: 'Hosting Options:'
       },
       port: {
