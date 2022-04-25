@@ -13,7 +13,6 @@
 // limitations under the License.
 
 import {Vector2} from 'math.gl';
-import fromEntries from 'core-js-pure/actual/object/from-entries';
 
 import BaseObject from './base-object';
 import {getCentroid} from '../utils/geometry';
@@ -147,7 +146,7 @@ export default class XVIZObject extends BaseObject {
 
   // return object of  attributes and their values
   getAttributes() {
-    return fromEntries(this._attributes);
+    return Object.fromEntries(this._attributes);
   }
 
   getProp(name) {
